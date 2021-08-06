@@ -1,0 +1,6 @@
+Das Back-End (aus Emphelung von Cedrik) wurde so implementiert, dass ungültigen Eingaben von Nutzer für Sachen wie Datum,
+ Anzahl von Urlaubstage, Anzahl von Stunden werden geprüft und Exceptions werden geworfen, wenn einen fehler auftaucht.
+
+Trotz dieser Prüfung im Back-End, ist das Front-End so zu implementieren, dass es keine Möglichkeit gibt, ungültige
+Eingaben einzugeben durch die Nutzung von Dropbox zum Beispiel. Bsp: Die Eingaben von Datum erfolgt durch die Auswahl
+von Ziffer durch das Dropbox.
